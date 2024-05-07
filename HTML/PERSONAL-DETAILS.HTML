@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL-DETAIL</title>
+</head>
+<style>
+    h2 {
+        text-align: center;
+        border-radius: 18px;
+        background-color: #9DB2BF;
+        height: 35px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 30px;
+        border-left: 5px solid #526D82;
+        border-right: 5px solid #526D82;
+    }
+    table {
+        margin-left: 50px;
+    }
+    .btn {
+        border-color: transparent;
+        margin-top: 20px;
+        margin-right: 10px;
+        padding: 5px;
+        background-color: #27374D;
+        height: 35px;
+        width: 100px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        color: white;
+        font-weight: 600;
+        border-radius: 18px;
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: #9DB2BF;
+        color: black;
+        border-color: black;
+        border: 2px solid;
+    }
+</style>
+<body bgcolor="#DDE6ED">
+    <h2>PERSONAL - DETAIL</h2>
+    <br>
+    <table>
+        <tr>
+            <td>
+                <b><label for="fn">First Name</label><br></b>
+                <input type="text" id="fn" placeholder="Enter First Name">
+            </td>
+            <td>
+                <b><label for="fn">Middle Name</label><br></b>
+                <input type="text" id="mn" placeholder="Enter Middle Name">
+            </td>
+            <td>
+                <b><label for="fn">Last Name</label><br></b>
+                <input type="text" id="ln" placeholder="Enter Last Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b><label for="gender" name="gender" id="gender">Gender</label><br></b>
+                <input type="radio" id="m" name="m">
+                <label for="m" name="m" id="m">Male</label>
+                <input type="radio" id="m" name="m">
+                <label for="m" name="m" id="m">Female</label>
+            </td>
+            <td>
+                <label for="dob" name="dob"><b>Date of Birth</b></label><br>
+                <input type="date" name="dob">
+            </td>
+            <td><br>
+                <label for="hob" name="hob"><b>Hobbies</b></label>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="hob">
+                            <label for="hob" name="hob">Reading</label><br>
+                            <input type="checkbox">
+                            <label for="hob" name="hob">Listning Song</label><br>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="hob">
+                            <label for="hob" name="hob">Watchin Movie</label><br>
+                            <input type="checkbox">
+                            <label for="hob" name="hob">Playing Games</label><br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <h2>CONTACT - DETAIL</h2>
+    <br>
+    <table>
+        <tr>
+            <td>
+                <label for="ad-1" name="ad1"><b>Adress - 1</b></label><br>
+                <textarea name="ad-1" id="ad-1" cols="17" rows="3" placeholder="Block No. ,strectno"></textarea><br>
+            </td>
+            <td>
+                <label for="city">City</label><br>
+                <select name="city" id="city">
+                    <option value="Mahuva">Mahuva</option>
+                    <option value="Rajula">Rajula</option>
+                    <option value="Junagadh">Junagadh</option>
+                    <option value="Mubai">Mubai</option>
+                    <option value="Hyadarabad">Hyadarabad</option>
+                </select><br><br>
+                <label for="city">Contact No. </label><br>
+                <button>+91</button>
+                <input type="number">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ad-2" name="ad-2"><b>Adress - 2</b></label><br>
+                <textarea name="ad-2" id="ad-2" cols="17" rows="3" placeholder="Near by ,land nikol"></textarea>
+            </td>
+            <td>
+                <label for="em" name="em" >E-mail </label><br>
+                <input type="email" id="em">
+            </td>
+        </tr>
+    </table>
+
+    <h2>EDUCATION - DETAIL</h2>
+    <br>
+    <table>
+        <tr>
+            <td>
+                <label for="12thbord" name="12thbord">12<sup>th</sup> Board </label>
+            </td>
+            <td>
+                <select name="board" id="bord">
+                    <option value="select">-SELECT-BOARD-</option>
+                    <option value="GHSEB">GHSEB</option>
+                    <option value="CBSEC">CBSEC</option>
+                    <option value="NCRT">NCRT</option>
+                </select>
+            </td>
+            <td>
+                <input type="number" placeholder="Pre%">
+            </td>
+            <td>
+                <input type="number" placeholder="Year">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Gredution" name="Gredution">Gredution</label>
+            </td>
+            <td>
+                <select name="Gredution" id="Gredution">
+                    <option value="-Select-Greduation-">-SELECT-GREDUTION-</option>
+                    <option value="B.C.A.">B.C.A.</option>
+                    <option value="B.com.">B.com.</option>
+                    <option value="B.A.">B.A.</option>
+                    <option value="B.sc.">B.sc.</option>
+                    <option value="B.B.A.">B.B.A.</option>
+                </select>
+            </td>
+            <td>
+                <input type="number" placeholder="Pre%">
+            </td>
+            <td>
+                <input type="number" placeholder="Year">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Post Greduation" name="Post Greduation">12</label>
+            </td>
+            <td>
+                <select name="pg" id="pg">
+                    <option value="select">-SELECT-POST-GREDUTION-</option>
+                    <option value="M.C.A.">M.C.A.</option>
+                    <option value="M.Com">M.Com</option>
+                    <option value="M.A.">M.A.</option>
+                    <option value="M.sc.">M.sc.</option>
+                    <option value="M.B.A.">M.B.A.</option>
+                </select>
+            </td>
+            <td>
+                <input type="number" placeholder="Pre%">
+            </td>
+            <td>
+                <input type="number" placeholder="Year">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="SUBMITE" class="btn">
+                <input type="reset" value="CLEAR" class="btn">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
