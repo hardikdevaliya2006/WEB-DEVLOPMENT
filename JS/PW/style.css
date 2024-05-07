@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: red;
+    border: 4px solid brown;
+}
+div {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    background: url(IMG/IPHONE13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aquamarine;
+    border: 2px solid black;
+    
+}
